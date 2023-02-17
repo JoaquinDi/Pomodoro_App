@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro App</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
+    
+    <link rel="icon" href="img/pomodoro.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="container">
+        <div class="container-logo">
+            <img src="img/pomodoro.png" alt="Pomodoro" class="pomodoro">
+            <h1 class="h1-pomodoro">POMODORO</h1>
+        </div>
+        <div class="app" id="app">
+            <div id="time">
+                <div class="reloj" id="value"></div>
+                <div class="taskName" id="taskName"></div>
+            </div>
+
+            <div class="tasks_container">
+                <div class="form">
+                    <form action="" id="form" >
+                        <input id="itTask" type="text" class="input-tarea">
+                        <input id="bAdd" type="submit" value="Agregar Tarea" class="input-boton">
+                    </form>
+                </div>
+                <div class="tasks" id="tasks">
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="info">
+            <h2 class="titulo-info">¿Qué es la técnica Pomodoro?</h2>
+            <p class="texto-info">La técnica Pomodoro consiste en usar un temporizador
+                 para dividir el trabajo en bloques de tiempo enfocados 
+                 <span class="span">(de 25 minutos)</span> separados por un breve descanso de <span class="span">cinco minutos.</span> <br><br>
+                 Los beneficios de la <span class="span">técnica Pomodoro</span> provienen de los descansos frecuentes, 
+                 que ayudan a que tu mente se mantenga fresca. 
+                 Los bloqueos de tiempo enfocados también te obligan a cumplir con límites fijos, 
+                 por lo que te animará a completar una tarea más rápidamente o,
+                  en el caso de una tarea grande,
+                  extenderla en varios pomodoros.</p>
+        </div>
+
+        <div class="footer">
+            <h3 class="h3-footer">Creado por <a class="h3-a" href="">Joaquin Dionisio</a></h3>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,167 @@
+html{
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.app::-webkit-scrollbar{
+    height: 0;
+}
+body::-webkit-scrollbar{
+    background-color: #F2E0D5;
+    width: .2em;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #3a0000;
+    border-radius: 10em;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F2E0D5;
+    background-image: url(img/background-pomodore.png);
+    background-position: center;
+    background-size: 5em;
+    overflow: hidden;
+}
+
+.container-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pomodoro{
+    height: 8em;
+    width: 8em;
+    padding: 1em;
+
+}
+
+.h1-pomodoro{
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    color: #8C0404;
+}
+
+.app{
+    display: flex;
+    width: 80%;
+    height: 50vh;
+    background-color: #D96055;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+    background-image: url(img/background-pomodore2.png);
+    background-position: center;
+    background-size: 5em;
+    overflow: auto;
+    transition: .3s;
+}
+
+.reloj{
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: .2em;
+    color: #3a0000;
+}
+
+.input-tarea{
+    border: none;
+    border-radius: 1em;
+    outline: none;
+    padding: .4em;
+    width: 20em;
+    background-color: #F2E0D5;
+
+}
+
+.input-boton{
+    border: none;
+    border-radius: 1em;
+    outline: none;
+    padding: .4em;
+    background-color: #8C0404;
+    color: #F2E0D5;
+    width: 8em;
+}
+
+.taskName{
+    text-align: center;
+    padding-bottom: .5em;
+    color: #3a0000;
+    font-weight: bold;
+}
+
+.task{
+    display: flex;
+    gap: 1em;
+    padding: .5em 0;
+    align-items: end;
+    border-bottom: .1em #fa887d solid;
+    color: #3a0000;
+}
+
+.start-button{
+    border: none;
+    border-radius: 1em;
+    outline: none;
+    padding: .4em;
+    background-color: #8C0404;
+    color: #F2E0D5;
+    width: 8em;
+}
+
+.done{
+    color: #F2E0D5;
+    font-weight: bold;
+}
+
+.info{
+    width: 80%;
+    color: #3a0000;
+    text-align: center;
+    padding: 1em;
+    border-bottom: solid #cab7ac .1em;
+}
+
+.titulo-info{
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: 1em;
+}
+
+.span{
+    font-weight: bold;
+}
+
+.footer{
+    font-weight: bold;
+    color: #3a0000;
+    font-size: 1.2em;
+    padding: 1.5em 0 1em 0;
+}
+
+.h3-a:hover{
+    transition: all .2s ease-in-out;
+    color: #D96055;
+}
+
+@media screen and (max-width: 522px){
+
+    .input-tarea{
+        width: 100%;
+        margin-bottom: .5em;
+        padding: .8em 0;
+    }
+    .input-boton{
+        width: 100%;
+        padding: 1em 0;
+    }
+}
